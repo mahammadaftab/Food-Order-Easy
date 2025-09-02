@@ -1,0 +1,30 @@
+{
+  "name": "food-order-easy",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@auth/mongodb-adapter": "^3.10.0",
+    "bcrypt": "^6.0.0",
+    "framer-motion": "^12.23.12",
+    "mongodb": "^6.19.0",
+    "mongoose": "^8.18.0",
+    "next": "15.5.2",
+    "next-auth": "^4.24.11",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-hot-toast": "^2.6.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.2",
+    "tailwindcss": "^4"
+  }
+}
